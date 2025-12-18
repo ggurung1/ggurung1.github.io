@@ -1,1 +1,1 @@
-This is github pages for ggurung.
+Welcome to my portfolio page (https://ggurung1.github.io).

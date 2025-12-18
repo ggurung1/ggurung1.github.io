@@ -1,4 +1,4 @@
-# Hi, I'm Your Name 👋
+# Hi, I'm Gautam Gurung
 
 I'm a Data Analyst with experience in SQL, Python, and data visualization.
 I enjoy turning raw data into actionable insights.
