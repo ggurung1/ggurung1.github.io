@@ -1,4 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+.left-panel .tagline {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+}@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
 :root {
   --bg: #f4f6f8;
@@ -31,9 +37,9 @@ body.dark {
 }
 
 
-body.dark .social-links img {
+/*body.dark .social-links img {
   filter: invert(1);
-}
+}*/
 
 
 /* Top navigation */
@@ -144,7 +150,8 @@ min-height: 0;
 .social-links {
   display: flex;
   justify-content: center;
-  gap: 16px;
+  flex-direction: column;
+  gap: 10px;
   margin-top: 12px;
   font-size: 0.8rem;
 }
@@ -200,6 +207,86 @@ footer {
 
 .main-content {
   flex: 1;
-  display: flex;
 }
+
+.skills-list li {
+  font-size: 0.95rem;
+  margin-bottom: 0.4rem;
+}
+
+.skill-category {
+  font-weight:bold;
+  margin-right:0.5rem;
+}
+
+
+.left-panel .tagline {
+  font-style: italic;
+  font-size: 0.9rem;
+  color: #666;
+  text-align: center;
+  margin: 0.5rem 0 1rem;
+}
+
+.education-item {
+  margin-bottom: 1.2rem;
+}
+
+.education-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.education-header .degree {
+  font-weight: 600;
+}
+
+.education-header .year {
+  color: var(--muted);
+  font-size: 0.9rem;
+  margin-left: auto; 
+}
+
+.university {
+  margin-top: 0.2rem;
+  font-size: 0.95rem;
+}
+
+.dashboard-page {
+  display: block;
+  padding: 2rem;
+}
+
+.dashboard-wrapper {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.dashboard-gallery {
+  display: flex;
+  flex-direction:column;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.dashboard-gallery figure {
+  width: 100%;
+  margin:0;
+}
+
+.dashboard-gallery img {
+  width: 100%;
+  height: auto;
+  border-radius: 0.75rem;
+}
+
+.dashboard-gallery figcaption {
+  margin-top: 0.75rem;
+  font-size: 0.95rem;
+  color: var(--muted);
+}
+
 
